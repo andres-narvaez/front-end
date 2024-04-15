@@ -1,6 +1,7 @@
 import './inicio.css'
 import { Link } from 'react-router-dom'
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel'
+import TestimonialCard from '../../components/testimonial-card/testimonial-card'
 import 'pure-react-carousel/dist/react-carousel.es.css'
 
 function Inicio() {
@@ -30,24 +31,30 @@ function Inicio() {
         <div className="testimonials-container">
           <CarouselProvider
             naturalSlideWidth={100}
-            naturalSlideHeight={40}
+            naturalSlideHeight={30}
             totalSlides={3}
           >
             <Slider>
               <Slide className='slider-item-home' index={0}>
-                <img className='testimonial-item' src='/testimonio.png' />
-                <img className='testimonial-item' src='/testimonio.png' />
-                <img className='testimonial-item' src='/testimonio.png' />
+                <div className='cards-container'>
+                  <TestimonialCard />
+                  <TestimonialCard />
+                  <TestimonialCard />
+                </div>
               </Slide>
               <Slide className='slider-item-home' index={1}>
-                <img className='testimonial-item' src='/testimonio.png' />
-                <img className='testimonial-item' src='/testimonio.png' />
-                <img className='testimonial-item' src='/testimonio.png' />
+                <div className='cards-container'>
+                  <TestimonialCard />
+                  <TestimonialCard />
+                  <TestimonialCard />
+                </div>
               </Slide>
               <Slide className='slider-item-home' index={2}>
-                <img className='testimonial-item' src='/testimonio.png' />
-                <img className='testimonial-item' src='/testimonio.png' />
-                <img className='testimonial-item' src='/testimonio.png' />
+                <div className='cards-container'>
+                  <TestimonialCard />
+                  <TestimonialCard />
+                  <TestimonialCard />
+                </div>
               </Slide>
             </Slider>
             <ButtonBack className='carousel-button'><img src='/left-arrow.png' /></ButtonBack>
