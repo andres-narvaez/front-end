@@ -1,0 +1,43 @@
+.testimonial-card-container {
+    width: 300px;
+    height: 500px;
+    padding: 0 0 50px 0;
+}
+
+.photo-container img {
+    width: 100%;
+}
+
+.testimonial-container {
+    background-image: url("/bk-testimonial.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding: 15px 20px;
+    height: 328px;
+}
+
+.testimonial-text {
+    font-size: 0.8em;
+}
+
+.testimonial-name {
+    font-size: 0.8em;
+}
+
+.testimonial-name p:last-child {
+    font-size: 0.7em;
+    margin-top: 0px;
+}
+
+.testimonial-name p:first-child {
+    margin-bottom: 0px;
+}
+
+.stars-container img {
+    width: 25px;
+}
+
+.photo-container {
+    height: 250px;
+}
