@@ -1,0 +1,76 @@
+.first-fold {
+    display: flex;
+    text-align: left;
+    padding: 0 4em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 0.8em;
+    color: #a3a3a3;
+}
+
+.right-content strong{
+    color: #8A5AE2;
+}
+
+.left-content {
+    flex-grow: 2;
+    padding: 0 8em;
+}
+
+.banner-buttons {
+    display: flex;
+    column-gap: 20px;
+    padding: 3em 0;
+}
+
+.banner-buttons .login-item {
+    padding: 15px 30px;
+}
+
+.banner-buttons .login-item:nth-child(1) {
+    background-color: #EC5C2E;
+    color: #fff;
+}
+
+.check-items-container {
+    display: flex;
+    column-gap: 20px;
+}
+
+.testimonials-container {
+    min-height: 568px;
+    background: rgb(57,66,100);
+    background: linear-gradient(0deg, rgba(57,66,100,1) 0%, rgba(57,66,100,1) 50%, rgba(217,217,217,1) 50%, rgba(217,217,217,1) 100%);
+}
+
+.testimonial-item {
+    max-width: 470px;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-button {
+    background-color: transparent;
+    position: absolute;
+}
+
+.carousel__back-button {
+    left: 0;
+    top: calc(50% - 50px);
+}
+
+.carousel__next-button {
+    right: 0;
+    top: calc(50% - 50px);
+}
+
+.slider-item-home {
+    height: 568px !important;
+}
