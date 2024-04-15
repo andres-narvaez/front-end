@@ -1,3 +1,5 @@
+import './contactanos.css'
+
 function Contactanos() {
     return (
       <div>Hola contactanos</div>

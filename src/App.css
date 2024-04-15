@@ -8,6 +8,7 @@
 
 .main-content {
   width: 100%;
+  padding: 1em 0;
 }
 
 @keyframes logo-spin {
