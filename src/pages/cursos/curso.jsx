@@ -5,7 +5,7 @@ function Curso() {
       <div className='course-main-container'>
         <div className='fist-part'>
           <div className='right-content'>
-            <h1>
+            <h1 className='course-title'>
               Course Main Contents
             </h1>
             <div className='content-video'>
