@@ -40,7 +40,7 @@ function Contactanos() {
         </h6>
       </div>
       <div className='left-content-contact'>
-      <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit}>
           <div className='form-login-input-container'>
             <div>
               <input

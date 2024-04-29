@@ -19,6 +19,7 @@ function Login() {
   const handleSubmit = (event) => {
     event.preventDefault()
     console.log('Email enviado:', email)
+    sessionStorage.setItem('email', email)
     navigate('/')
   }
 
