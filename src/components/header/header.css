@@ -29,3 +29,8 @@ nav {
     color: #252B42;
     font-weight: 700;
 }
+
+.user-login-container {
+    display: flex;
+    column-gap: 10px;
+}
